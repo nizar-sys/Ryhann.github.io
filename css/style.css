@@ -1,0 +1,357 @@
+body{
+    zoom: auto;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.navbar .a1{
+    color: white;
+    margin-left: 150px;
+    padding-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+.navbar .a2{
+    color: white;
+    margin-left: 50px;
+    padding-top: 20px;
+    text-decoration: none;
+    transition: .3s;
+}
+.navbar .a1:hover{
+   color: blue;
+}
+.navbar .a2:hover{
+    color: blue;
+}
+
+.navbar .a3, .a4{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(107, 104, 104); 
+    color: white; 
+    padding: 10px; 
+    float: right;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.navbar .a3:hover{
+    background-color: white;
+    color: black;
+}
+.navbar .a4:hover{
+    background-color: white;
+    color: black;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(70, 68, 68);
+}
+.header .logo{
+    width: auto;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 150px;
+    padding: 10px 0px 30px 0px;
+}
+
+.header p{
+    float: right;
+    margin-right: 20px;
+    height: auto;
+    color: rgb(246, 9, 9);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.header .topnav{
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 10px solid rgb(108, 108, 240);
+}
+.header .topnav .home1{
+    margin-left: 150px;
+}
+.header .topnav a{
+    float: left;
+    display: block;
+    color: #f9f8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header .topnav a:hover{
+    background-color: rgb(97, 97, 248);
+}
+.topnav input{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+.content{
+    width: 89%;
+    height: 2200px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(34, 33, 33);
+    position: relative;
+    border-radius: 30px;
+}
+img.tengah{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.home{
+    width: 99.3%;
+    height: auto; 
+    text-align: center;
+    background-color: rgb(155, 132, 177);
+    font-size: 36px;
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(128, 35, 35);
+    padding: 10px;
+    border-radius: 30px;
+}
+.content .ongoing{
+    width: 1300px;
+    height: 100px;
+    background-color: rgba(245, 245, 245, 0.096);
+    border-bottom:10px solid rgb(108, 108, 240);
+}
+.content .ongoing p{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    color: tan;
+}
+.content .ongoing a{
+    float: right;
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: steelblue;
+    color: rgb(255, 255, 255);
+    
+}
+.content .card{
+    position:initial;
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    padding: 40px 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    float: left;
+    text-align: center;
+}
+.content .title{
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: rgb(121, 154, 187);
+    color: black;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    transition: 5 alternate;
+}
+.content .title:hover{
+    background-color: white;
+    color: blue;
+    border-radius: 60px;
+}
+.text1{
+    width: 100px;
+    height: auto;
+    background-color: white;
+    color: rgb(3, 3, 3);
+    display: none;
+    margin-top: 150px;
+}
+.content .card2,.card3,.card4,.card5,.card6{
+    position: initial;
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 430px;
+    float: left;
+    text-align: center;
+}
+.card2{
+    margin-top: 20px;
+}
+.card3{
+    margin-left: 260px;
+    margin-top: 10px;
+}
+.card4{
+    margin-left: 520px;
+}
+.card5{
+    margin-left: 780px;
+}
+.card6{
+    margin-left: 1040px;
+    padding-bottom: 10px;
+}
+.wikipedia{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    transition: ease-in;
+}
+.wikipedia:hover{
+    background-color: rgb(10, 10, 10);
+    border-radius: 60px;
+    border: 5px solid white;
+    color: white;
+}
+.wikipedia a{
+    color: white;
+    height: auto;
+    margin-left: 35px;
+    float: left;
+    border: 4px solid salmon;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+.wikipedia a:hover{
+    border-radius: 30px;
+}
+.fanpage{
+    position: initial;
+    position: relative;
+    width: 1000px;
+    height: 50px;
+    margin-left: auto;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    background-image: radial-gradient(rgb(188, 214, 41), rgb(8, 245, 225));
+    font-size: 30px;
+    font-family: arial;
+    text-decoration: none;
+    transition: 3s alternate;
+}
+.fanpage:hover{
+    text-transform: uppercase;
+}
+.content .ownerweb{
+    width: 1000px;
+    height: auto;
+    position: relative;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm200-nunoon-09.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=cbd2205c96d6ab2adfed071b6ccde64c);
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+.content .navmostpoppular{
+    width: 1320px;
+    height: 100px;
+    background-color: rgba(245, 245, 245, 0.096);
+    float: left;
+    position: absolute;
+    margin-top: 100px;
+    border-bottom: 5px solid blue;
+}
+.navmostpoppular p{
+    float: left;
+    margin-left: 10px;
+    padding-left: 15px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.navmostpoppular a{
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: steelblue;
+}
+.content .content-mostpoppular{
+    width: 1360px;
+    height: auto;
+    border: 1px solid white;
+    float: left;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -15px;
+}
+.pfooter{
+    width: 100%;
+    height: 200px;
+    background-color: teal;
+    margin-top: 1000px;
+    border-top-color: 5px solid blue;
+}
+.pfooter p{
+    float: left;
+    font-size: 30px;
+    margin: 70px 0px 0px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.pfooter span{
+    position: absolute;
+    float: right;
+    margin: 70px 0px 0px 1800px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 34px;
+}
+.pfooter h6{
+    border-top-color: 5px solid gray;
+    float: right;
+    margin: 120px 40px 0px 100px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
