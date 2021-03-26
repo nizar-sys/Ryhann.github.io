@@ -358,6 +358,6 @@ img.tengah{
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .navbar, .header, .content, .pfooter {
-    width: 100%;
+    width: 50%;
   }
 }
